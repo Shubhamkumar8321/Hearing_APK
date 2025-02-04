@@ -5,6 +5,7 @@ import HearingAidTrial from "../Component/HearingAidTrial";
 import SpecialCTA from "../Component/SpecialCTA";
 import FeaturesSection from "../Component/featuresection";
 import CardComponent from "../Phonak/component/CardComponent";
+import CardComponent3 from "../Phonak/component/CardComponent3";
 import WhyHear from "../Component/WhyHear";
 import AllRate from "../Component/AllRate";
 import CustomerReviews from "../Component/CustomerReviews";
@@ -20,6 +21,7 @@ const Phonak = () => {
       <FeaturesSection />
       <ComparisonTable/>
       <CardComponent />
+      <CardComponent3/>
       <WhyHear />
       <AllRate />
       <CustomerReviews />

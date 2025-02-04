@@ -6,6 +6,7 @@ import HearingAidTrial from "./Component/HearingAidTrial";
 import SpecialCTA from "./Component/SpecialCTA";
 import FeaturesSection from "./Component/featuresection";
 import CardComponent from "./Component/CardComponent";
+import CardComponent2 from "./Component/CardComponent2";
 import WhyHear from "./Component/WhyHear";
 import AllRate from "./Component/AllRate";
 import CustomerReviews from "./Component/CustomerReviews";
@@ -32,6 +33,7 @@ const App = () => {
               <FeaturesSection />
               <ComparisonTable />
               <CardComponent />
+              <CardComponent2/>
               <WhyHear />
               <AllRate />
               <CustomerReviews />

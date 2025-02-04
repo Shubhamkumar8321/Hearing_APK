@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import img1 from "../Assets/image1.jpg";
-import img2 from "../Assets/image2.jpg";
-import img3 from "../Assets/img3.png";
-import img4 from "../Assets/image4.png";
-import img5 from "../Assets/image5.png";
+import img1 from "../Phonak/Assets/image1.jpg";
+import img2 from "../Phonak/Assets/image2.jpg";
+import img3 from "../Phonak/Assets/img3.png";
+import img4 from "../Phonak/Assets/image4.png";
+import img5 from "../Phonak/Assets/image5.png";
 import { useNavigate } from "react-router-dom";
-import DetailsForm from "../component/TopForm/detailsForm";
+import DetailsForm from "../Component/TopForm/detailsForm";
 
 const CardComponent = () => {
   const navigate = useNavigate();
